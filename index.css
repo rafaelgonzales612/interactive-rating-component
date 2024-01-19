@@ -1,0 +1,70 @@
+/* === CSS RESET === */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Overpass", sans-serif;
+}
+
+img,
+svg {
+  display: block;
+  width: 100%;
+}
+
+input,
+button,
+select,
+textarea {
+  font: inherit;
+}
+
+/* === VARIABLES === */
+:root {
+  /* COLORS */
+  --color-orange: hsl(25, 97%, 53%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-lightgrey: hsl(217, 12%, 63%);
+  --color-mediumgrey: hsl(216, 12%, 54%);
+  --color-darkblue: hsl(213, 19%, 18%);
+  --color-verydarkblue: hsl(216, 12%, 8%);
+  /* FONTS */
+  --fw-400: 400;
+  --fw-700: 700;
+}
+
+/* === GENERAL STYLES === */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 400px;
+  border: 1px solid black;
+}
+
+.thankyou-container {
+  display: none;
+}
+
+.attribution {
+  font-size: 1.1rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
