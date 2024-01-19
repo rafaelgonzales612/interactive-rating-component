@@ -52,9 +52,26 @@ body {
   min-height: 100vh;
 }
 
+.heading {
+  color: var(--color-white);
+}
+
+p {
+  color: var(--color-lightgrey);
+}
+
 .container {
   width: 400px;
   border: 1px solid black;
+}
+
+.rating-img {
+  width: 1.7rem;
+  height: auto;
+}
+
+.rating-container {
+  background: linear-gradient(var(--color-darkblue), var(--color-verydarkblue));
 }
 
 .thankyou-container {
